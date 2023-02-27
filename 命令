@@ -52,6 +52,15 @@ $ git rm --cached index.css
 此后需要提交
 $ git commit -a -m "移除了index.css和index.js"
 
+在一行上展示所有的提交历史
+git log --pretty=oneline
+使用git reset --hard 命令，根据指定的提交id回退到指定版本
+git reset --hard
+在旧版本中使用git reflog --pretty=oneline命令，查看命令操作的历史
+git reflog --pretty=oneline
+再次根据最新的提交ID ,跳转到最新的版本
+git reset --hard<CommitID>
+
 
 
 
