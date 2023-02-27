@@ -47,6 +47,13 @@ $ git commit -a -m "修改了Index.css和index.html"
 
 同时移除git仓库跟工作区文件
 $ git rm -f index.js
+只移除仓库的文件(两种移除方式在commit后生效)
+$ git rm --cached index.css
+此后需要提交
+$ git commit -a -m "移除了index.css和index.js"
+
+
+
 
 
 
