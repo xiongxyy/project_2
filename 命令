@@ -42,6 +42,15 @@ $ git reset HEAD index.html
 移除全部
 $ git reset HEAD .
 
+工作区文件跳过暂存区 ,直接提交
+$ git commit -a -m "修改了Index.css和index.html"
+
+同时移除git仓库跟工作区文件
+$ git rm -f index.js
+
+
+
+
 
 
 
